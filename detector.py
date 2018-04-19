@@ -21,7 +21,7 @@ def updateScammerStatus(name):
 
 def reportSpam(id):
 	report = api.report_spam(user_id=id)
-	print(user_id, " has been reported!")
+	print(id, " has been reported!")
 
 
 
